@@ -3,3 +3,4 @@ def verificar_disponibilidad(reservas, nueva):
         if r["sala"] == nueva["sala"] and r["hora"] == nueva["hora"]:
             return False
     return True
+#+1
